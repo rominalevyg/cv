@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+    
+body{
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85em;
+}
+main{
+    width: 100%;
+}
+header{
+    width: 100%;
+    text-align: center;
+}    
+section{
+    margin: auto;
+    width: 58%;
+}
+#left_bar{
+    background-color: #3E9EAE;
+    color: white;
+    width: 42%;
+    margin-right: 20px;
+}
+aside{
+    width: 55%;
+    margin: 20px;
+    margin: auto;
+    padding: 20px;
+}
+aside img{
+    width: 10%;
+    height: 10%;
+    margin: 8px;
+}
+#volver{
+    color: #3E9EAE;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#button_volver{
+    text-align: center;
+}
+#volver:hover{
+    color: rgb(37, 94, 104);
+    text-decoration: none;
+    text-decoration: underline;
+}
+.informacion_p p{
+    margin-bottom: 20px;
+}
+article{
+    background-color: whitesmoke;
+    width: 60%;
+}
+#foto{
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    color: #3E9EAE;
+    font-size: 4.875em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 1.563em;
+    margin-top: 40px;
+}
+h3{
+    color: #3E9EAE;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+span{
+    font-style: italic;
+}
+footer{
+    margin-right: 20px;
+    text-align: right;
+    width: 60%;
+}
+.content{
+    padding: 40px;
+}
+#aptitudes{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+#experiencia{
+    margin-top: 0px;
+}
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#img_intereses{
+    width: 100%;    
+}
+nav{
+    width: 60%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+nav li{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    width: 100%;   
+    
+    
+}
+nav a{
+    color: #3E9EAE;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #3E9EAE;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 10px;
+    margin-top: 0px;
+
+}
+nav a:hover{
+    color: white;
+    background-color: #3E9EAE;
+    text-decoration: none;
+}
+p{
+   margin: 0px;
+   padding: 0px;
+}
+.content a img{
+    width: 20%;
+    height: 20%;
+    max-width: 50px;
+    max-height: 50px;
+}
+@media screen and (max-width: 1200px){
+    body{
+        font-size: 0.8em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    aside{
+        width:60%;
+        text-align: center;
+    }
+    nav{
+        width: 60%;
+    }
+    header{
+        width: 100%;
+        text-align: center;
+    }
+    .content{
+        padding: 20px;
+    }
+    .content a {
+        width: 50%;
+        height: 50%;
+        margin: 10px;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    img{
+        width: 15%;
+        height: 15%;
+    }
+    aside img{
+        width: 15%;
+        height: 15%;
+        margin: 15px;
+    }
+    #left_bar p{
+        margin-bottom: 7px;
+    }
+ }
+ @media screen and (max-width: 600px){
+    body{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    header{
+        width: 100%;
+        text-align: center;
+    }
+    section{
+        width: 100%;
+    }
+    aside{
+        width: 90%;
+    }
+    nav{
+        width: 85%;
+    }
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content{
+        padding: 40px;
+        box-sizing: border-box;
+    }
+    img{
+        width: 8%;
+        height: 8%;
+    }
+    .content a img{
+        max-width: 50px;
+        max-height: 50px;
+        margin: 0px;
+        padding: 0px;
+    }
+    aside img{
+        width: 20%;
+        height: 20%;
+        margin: 8px;
+    }
+    section{
+        flex-direction: column;
+        width: 90%;
+    }
+    main{
+        width: 90%;
+    }
+    article{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #left_bar{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #aptitudes{
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 20px;
+    }
+    footer{
+        width: 90%;
+        text-align: center;
+    }
+    #foto{
+        width: 80%;
+        height: 80%;
+    }
+    .informacion_p{
+        text-align: center;
+    }
+ }
