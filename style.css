@@ -511,4 +511,7 @@ p {
         height: 80%;
     }
 
+    .progress-bar p {
+        font-size: 0.84em;
+    }
 }
