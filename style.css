@@ -12,6 +12,11 @@ body {
     font-size: 0.85em;
 }
 
+.bold {
+    font-weight: 700 !important;  
+    font-style: normal !important;
+}
+
 a {
     text-decoration: none;
 }
@@ -512,6 +517,6 @@ p {
     }
 
     .progress-bar p {
-        font-size: 0.65em;
+        font-size: 0.75em !important;
     }
 }
