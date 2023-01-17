@@ -3,23 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/0c08d73767.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CV de Romina Levy Gagliardini</title>
 </head>
 
 <body>
-    <header id="header">
-        <h1>Romina Levy Gagliardini</h1>
-    </header>
-    <nav>
-        <ul>
-            <li> <a href="#informacion"> Informaci&oacute;n personal</a> </li>
-            <li> <a href="#experiencia"> Experiencia profesional </a></li>
-            <li> <a href="#educacion"> Formaci&oacute;n acad&eacute;mica </a> </li>
-            <li> <a href="#intereses"> Intereses personales</a> </li>
+    <nav class="menu">
+        <ul class="hidden" id="myLinks">
+            <li> <a href="#informacion" onclick="myFunction()"> Informaci&oacute;n personal</a> </li>
+            <li> <a href="#experiencia" onclick="myFunction()"> Experiencia profesional </a></li>
+            <li> <a href="#educacion" onclick="myFunction()"> Formaci&oacute;n acad&eacute;mica </a> </li>
+            <li> <a href="#intereses" onclick="myFunction()"> Intereses personales</a> </li>
         </ul>
     </nav>
+    <div class="btn-hmbg">
+        <a  href="javascript:void(0);" onclick="myFunction()"> <i class="fas fa-bars appear fa-4xs"></i></a>
+    </div>
+<header id="header">
+        <h1>Romina Levy Gagliardini</h1>
+    </header>
     <main>
         <section class="flex-container">
             <article id="left_bar">
@@ -53,73 +57,73 @@
 
                     <h2>Conocimientos</h2>
                     <div id="conocimientos">
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 95%;"></span>
-                                <p>Illustrator, Photoshop</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 100%;"></span>
-                                <p>Maquetado web: HTML, CSS, Boostrap, Material Design</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 95%;"></span>
-                                <p>Gestión de contenidos: Odoo, Wix, Wordpress.</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 40%;"></span>
-                                <p>Dreamweaver, After Effect, Premiere, Indesign</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 20%;"></span>
-                                <p>Programaci&oacute;n: C#, .Net, Python, Php, Js, Java2SE</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 20%;"></span>
-                                <p>Automatizaci&oacute;n: Selenium, Robotium, Ui Automator</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 10%;"></span>
-                                <p>Herramientas de Modelado: Enterprise Architect, Visio</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 20%;"></span>
-                                <p>Lenguajes de Modelado: Estructurado, UML</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 30%;"></span>
-                                <p>SO: Windows, Linux (Ubuntu), Mac</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 40%;"></span>
-                                <p>Versionado: TFS, SVN Tortoise, Github, Gitlab</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 40%;"></span>
-                                <p>Tableros: Trello, Jira, Proyeqtor, Azure</p>
-                            </div>
-                    
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 70%;"></span>
-                                <p>Base de Datos: SQL Server, Oracle, MySQL</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 10%;"></span>
-                                <p>Base de Datos: T-SQL y PL-SQL</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 20%;"></span>
-                                <p>Integración continua: Jenkins</p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 50%;"></span>
-                                <p>IDEs: Visual Code/Studio, IntelliJ, Android Studio, Eclipse
-                                </p>
-                            </div>
-                            <div class="progress-bar color stripes shine">
-                                <span style="width: 95%;"></span>
-                                <p>Office: Word, Excel, PowerPoint, Access, OpenOffice
-                                </p>
-                            </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 95%;"></span>
+                            <p>Illustrator, Photoshop</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 100%;"></span>
+                            <p>Maquetado web: HTML, CSS, Boostrap, Material Design</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 95%;"></span>
+                            <p>Gestión de contenidos: Odoo, Wix, Wordpress.</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 40%;"></span>
+                            <p>Dreamweaver, After Effect, Premiere, Indesign</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 20%;"></span>
+                            <p>Programaci&oacute;n: C#, .Net, Python, Php, Js, Java2SE</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 20%;"></span>
+                            <p>Automatizaci&oacute;n: Selenium, Robotium, Ui Automator</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 10%;"></span>
+                            <p>Herramientas de Modelado: Enterprise Architect, Visio</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 20%;"></span>
+                            <p>Lenguajes de Modelado: Estructurado, UML</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 30%;"></span>
+                            <p>SO: Windows, Linux (Ubuntu), Mac</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 40%;"></span>
+                            <p>Versionado: TFS, SVN Tortoise, Github, Gitlab</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 40%;"></span>
+                            <p>Tableros: Trello, Jira, Proyeqtor, Azure</p>
+                        </div>
+
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 70%;"></span>
+                            <p>Base de Datos: SQL Server, Oracle, MySQL</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 10%;"></span>
+                            <p>Base de Datos: T-SQL y PL-SQL</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 20%;"></span>
+                            <p>Integración continua: Jenkins</p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 50%;"></span>
+                            <p>IDEs: Visual Code/Studio, IntelliJ, Android Studio, Eclipse
+                            </p>
+                        </div>
+                        <div class="progress-bar color stripes shine">
+                            <span style="width: 95%;"></span>
+                            <p>Office: Word, Excel, Power Point, Access, OpenOffice
+                            </p>
+                        </div>
                     </div>
             </article>
             <article class="content">
@@ -293,9 +297,17 @@
         <p> Realizado por Romina Levy Gagliardini ®</p>
     </footer>
 
-    <!--FONT AWESOME-->
-    <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.classList.contains('hidden')) {
+                x.classList.remove('hidden');
+            } else {
+                x.classList.add('hidden');
+            }
+        }
+    </script>
+    
 </body>
 
 </html>
