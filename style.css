@@ -59,9 +59,16 @@ aside img {
 }
 
 #volver {
-    color: #3E9EAE;
+    color: white;
     text-decoration: none;
-    margin-top: 20px;
+    position: fixed;
+    top: 400px;
+    right: 10px;
+    z-index: 20;
+    background-color: #3E9EAE;
+    padding: 20px 23px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
 }
 
 #button_volver {
